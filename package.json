@@ -1,0 +1,20 @@
+{
+  "name": "miaowei",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/copy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cooskin/miaowei.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cooskin/miaowei/issues"
+  },
+  "homepage": "https://github.com/Cooskin/miaowei#readme"
+}
