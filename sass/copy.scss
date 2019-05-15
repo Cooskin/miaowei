@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 em{
   font-style: normal;
 }
@@ -27,14 +28,178 @@ textarea{
 }
 body{
   font-size: 12px;
-  //font-family:"微软雅黑";
+
+}
+/* public */
+.clear{
+  zoom: 1;
 }
 
+.clear::after{
+  content:"";
+  display: block;
+  clear: both;
+}
 
+.fl{
+  float: left;
+}
 
+.fr{
+  float: right;
+}
 
+.gradient{
+  background:-moz-linear-gradient(top,#ffffff,#f8f8f8);
+  background:-webkit-linear-gradient(top,#ffffff,#f8f8f8);
+  background:-ms-linear-gradient(top,#ffffff,#f8f8f8);
+  background:linear-gradient(top,#ffffff,#f8f8f8);
+  //+background:#f9f9f9;
+}
 
+/* layout */
+#header, #nav, .content{
+  width:960px;
+  margin: 0 auto;
+}
 
+#search, .section, .side_section, .ad_border, #footer{
+  border:1px solid #dbdbdb;
+  border-radius: 6px;
+}
+
+.section, .main_ad, .side_section, .side_ad, .ad_border{
+  margin-bottom:10px;
+}
+
+body{
+  margin-bottom: 30px;
+}
+
+#header{
+  height: 30px;
+  border-radius: 0 0 6px 6px;
+
+  .city{
+  padding: 5px 0 0 20px;
+
+    a{
+    display: inline-block;
+    padding: 0 7px;
+    height: 18px;
+    line-height: 18px;
+    color: #999;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    box-shadow: 1px 1px 0 #ededed;
+    }
+
+    .active{
+    color: #d60d03;
+    }
+
+    a:hover{
+    background: #f1f1f1;
+    }
+  }
+
+  .link{
+    padding-right: 20px;
+    line-height: 30px;
+
+    a{}
+
+    a:hover{}
+  }
+
+}
+
+#nav{
+  height:100px;
+  background:#ffc;
+}
+
+#search{
+  width: 958px;
+  height: 114px;
+  margin: 0 auto 10px;
+}
+
+.content{}
+
+.main{
+  width: 710px;
+}
+
+.section{
+  width: 318px;
+  height: 200px;
+  padding: 0 15px;
+}
+
+.options{
+  width: 350px;
+  height: 200px;
+
+  .nav{
+    height: 34px;
+    position: relative;
+
+    li{
+      width: 172px;
+      height: 33px;
+      border: 1px solid #dbdbdb;
+      border-radius: 6px 6px 0 0;
+      border-bottom: none;
+    }
+
+    .active{
+      width: 172px;
+      height: 34px;
+      background: #fff;
+    }
+  }
+
+  .con{
+    width: 348px;
+    height: 80px;
+    border: 1px solid #dbdbdb;
+    border-radius: 0 0 6px 6px;
+  }
+}
+
+.main_ad{
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.side{
+  width: 240px;
+}
+
+.side_section{
+  height: 60px;
+  padding: 0 12px;
+}
+
+.side_ad{
+  border-radius:6px;
+  overflow: hidden;
+}
+
+.ad_border{
+  width: 238px;
+  height: 88px;
+  overflow: hidden;
+}
+
+#footer{
+  width: 958px;
+  height: 78px;
+  background: #f9f9f9;
+  margin: 0 auto;
+}
 
 
 
