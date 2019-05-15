@@ -28,7 +28,6 @@ textarea{
 }
 body{
   font-size: 12px;
-
 }
 /* public */
 .clear{
@@ -83,20 +82,26 @@ body{
   .city{
   padding: 5px 0 0 20px;
 
-    a{
-    display: inline-block;
-    padding: 0 7px;
-    height: 18px;
-    line-height: 18px;
-    color: #999;
-    background: #fff;
-    border: 1px solid #e5e5e5;
-    border-radius: 4px;
-    box-shadow: 1px 1px 0 #ededed;
+    a {
+      display: inline-block;
+      padding: 0 7px;
+      height: 18px;
+      line-height: 18px;
+      color: #999;
+
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      box-shadow: 1px 1px 0 #ededed;
     }
 
-    .active{
-    color: #d60d03;
+    .active {
+      color: #d60d03;
+    }
+
+    .active:hover{
+      color: #d60d03;
+      background: #fff;
     }
 
     a:hover{
@@ -104,15 +109,30 @@ body{
     }
   }
 
-  .link{
+  .link {
     padding-right: 20px;
     line-height: 30px;
+    color: #d5d5d5;
+    word-spacing: 4px;
 
-    a{}
+    a {
+      color: #666;
+      background: url(../img/header_link_bg.gif) no-repeat 0 3px;
+      padding-left: 20px;
+    }
 
-    a:hover{}
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .ico1 {
+      background-position: 0 3px;
+    }
+
+    .ico2 {
+      background-position: 0 -27px;
+    }
   }
-
 }
 
 #nav{
