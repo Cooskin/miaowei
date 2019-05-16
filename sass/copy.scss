@@ -409,17 +409,18 @@ body{
         }
       }
     }
+
+    .triangle_up{
+      top: 8px;
+      right: 0;
+    }
+
+    .triangle_down_red{
+      top: 17px;
+      right: 0;
+    }
   }
 
-  .triangle_up{
-    top: 8px;
-    right: 0;
-  }
-
-  .triangle_down_red{
-    top: 17px;
-    right: 0;
-  }
 }
 
 .content{
