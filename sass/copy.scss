@@ -1146,6 +1146,7 @@ body {
 }
 
 .calendar{
+  position: relative;
   width: 323px;
   padding-left: 25px;
 
@@ -1174,27 +1175,172 @@ body {
     color: #666;
   }
 
-  ol{}
-
-  .normal{
+  ol{
+    .normal{
       background: #f8f8f8;
       color: #ccc;
     }
-  .active, .img{
+    .active, .img{
       position: absolute;
       top: 0;
       left: 0;
     }
-  .active{
+    .active{
       width: 36px;
       height: 36px;
       border: 2px solid #d30408;
     }
-  .img{
+    .img{
       width: 40px;
       height: 40px;
+    }
+  }
+}
+
+.today_info{
+  width: 294px;
+  height: 84px;
+  padding: 10px;
+  border: 1px solid #c0c0c0;
+  background: #fff;
+  position: absolute;
+  top: 140px;
+  left: 290px;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.2);
+
+  img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #dbdbdb;
+    float: left;
   }
 
+  .text{
+    width: 200px;
+    float: right;
+
+    h4{
+      font-size: 12px;
+      color: #333;
+
+      strong{
+        font-size: 16px;
+        color: #ccc;
+      }
+
+      p{
+        color: #999;
+        line-height: 20px;
+      }
+    }
+  }
+  span{
+    width: 8px;
+    height: 14px;
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    left: 8px;
+    background: url(../img/adorn.gif) no-repeat 0 -48px;
+  }
+}
+
+.recommend{
+
+  .pic{
+    width: 294px;
+    height: 168px;
+    padding: 12px 12px 0;
+    background: #f8f8f8;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 6px;
+
+    ul{
+      width: 223px;
+      height: 133px;
+      position: absolute;
+      top: 12px;
+      left: 12px;
+
+      li{
+        width: 223px;
+        height: 133px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid #fff;
+
+        img{
+          width: 223px;
+          height: 133px;
+        }
+      }
+    }
+
+    ol li,
+    ol img{
+      width: 54px;
+      height: 30px;
+    }
+
+    ol{
+      position: absolute;
+      top: 12px;
+      right: 12px;
+
+      li{
+        border: 3px solid #fff;
+        margin-bottom: 13px;
+
+        .active{
+          border: 3px solid #d6191d;
+        }
+      }
+    }
+
+    p{
+      line-height: 32px;
+      position: absolute;
+      left: 12px;
+      bottom: 0;
+    }
+  }
+
+  .list{
+    padding: 18px 26px 0;
+
+    li{
+      height: 27px;
+      vertical-align: middle;
+
+      em{
+        float: left;
+        color: #dfdfdf;
+        margin-right: 7px;
+
+        img{
+          margin-right: 3px;
+        }
+
+      }
+
+      a{
+        float: left;
+        color: #454545;
+      }
+
+      a:hover{
+        text-decoration: underline;
+      }
+
+      span{
+        float: right;
+        font-size: 12px;
+        color: #999;
+      }
+    }
+  }
 }
 
 .soso{
