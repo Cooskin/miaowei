@@ -24,7 +24,7 @@ table {
   border-collapse: collapse;
 }
 
-input textarea {
+input, textarea {
   outline: none;
 }
 
@@ -359,6 +359,7 @@ body {
     .text {
       width: 380px;
       height: 22px;
+      line-height: 22px;
       padding: 0 12px;
       border: none;
       background: #fff1ef;
@@ -452,29 +453,30 @@ body {
 .list_section .title {
   border-top: none;
 }
+
 .content {
 
 
-
-  .help{
+  .help {
     height: 208px;
 
-    li{
+    li {
       width: 154px;
       text-indent: 30px;
       background: url(../img/help.gif) no-repeat;
     }
-    p{
+
+    p {
       text-indent: 2em;
     }
 
-    ul{
+    ul {
       height: 44px;
       line-height: 44px;
       border-bottom: 1px solid #dbdbdb;
 
 
-      .phone{
+      .phone {
         position: absolute;
         font-size: 16px;
         font-weight: bold;
@@ -482,53 +484,54 @@ body {
         background-position: 7px 11px;
       }
 
-      .msn{
+      .msn {
         background-position: 7px -31px;
       }
     }
 
-    dl{
+    dl {
       width: 144px;
       line-height: 18px;
       padding: 15px 0 0 10px;
 
-      dt{
+      dt {
         font-weight: bold;
         padding-bottom: 8px;
 
-        dd{
+        dd {
           background: url(../img/dot.gif) no-repeat 4px center;
           text-indent: 18px;
 
-          a{
+          a {
             color: #333333;
           }
 
-          a:hover{
+          a:hover {
             text-decoration: underline;
           }
-        };
+        }
+      ;
       }
     }
   }
 
-  .media{
+  .media {
     height: 205px;
     padding-top: 3px;
 
-    li{
+    li {
       width: 318px;
       height: 50px;
       vertical-align: middle;
 
     }
 
-    a{
+    a {
       float: left;
       width: 100px;
     }
 
-    p{
+    p {
       float: right;
       width: 208px;
       color: #333333;
@@ -579,17 +582,19 @@ body {
       width: 318px;
       padding: 0 15px;
 
-      .title{
+      .title {
         border-top: none;
       }
 
-      .col1{
+      .col1 {
         width: 273px;
       }
-      .col2{
+
+      .col2 {
         width: 35px;
       }
-      .col2 img{
+
+      .col2 img {
         position: relative;
         top: 7px;
       }
@@ -750,47 +755,54 @@ body {
   .side {
     width: 240px;
 
-    .login{
+    .login {
       height: 138px;
       overflow: hidden;
       margin-bottom: 10px;
     }
+
     .login h2 {
+      margin-bottom: 20px;
       text-indent: 12px;
       color: #000;
       font-size: 12px;
       line-height: 34px;
       border-bottom: 1px solid #dbdbdb;
+
       em {
         color: #cc0d13;
         font-size: 12px;
       }
     }
+
     .login .form {
       width: 214px;
       padding: 15px 0 2px;
       border-bottom: 1px solid #f2f2f2;
-      margin: 0 auto;
+      margin: 10px auto;
       position: relative;
     }
+
     .login li {
       height: 26px;
       vertical-align: middle;
 
 
-
     }
+
     .login li span,
     .login li input,
-    .login li strong{
+    .login li strong {
       float: left;
     }
+
     .login span {
       float: left;
       width: 58px;
       color: #595959;
       word-spacing: 7px;
     }
+
     .login .text {
       float: left;
       width: 87px;
@@ -800,10 +812,12 @@ body {
       border: 1px solid #dbdbdb;
       background: #f7f7f7;
     }
-    .login strong{
+
+    .login strong {
       font-weight: normal;
       padding-left: 3px;
     }
+
     .login .btn {
       float: right;
       width: 54px;
@@ -815,22 +829,22 @@ body {
       font-weight: bold;
       border-radius: 10px;
     }
+
     .login p {
       line-height: 32px;
       text-align: center;
       word-spacing: 20px;
     }
+
     .login p a {
       padding-left: 14px;
       color: #666;
       background: url(../img/dot.gif) no-repeat 4px center;
     }
+
     .login a:hover {
       text-decoration: underline;
     }
-
-
-
 
 
     .side_section {
@@ -848,7 +862,6 @@ body {
 
 
     }
-
 
 
     .side_ad {
@@ -886,105 +899,111 @@ body {
   }
 }
 
-.list_section{
+.list_section {
 
-  .title{
+  .title {
     background: none;
     color: #999999;
     border-top: none;
 
   }
 
-  li{
+  li {
     height: 27px;
     line-height: 27px;
     border-top: 1px dotted #dadada;
     background: url(../img/dot.gif) no-repeat 5px center;
 
-    .col1{
+    .col1 {
       text-align: center;
       float: left;
       width: 137px;
     }
-    .col2{
+
+    .col2 {
       text-align: center;
       float: left;
       width: 35px;
 
     }
-    .col3{
+
+    .col3 {
       text-align: center;
       float: left;
       width: 36px;
     }
-    .color{
+
+    .color {
       color: #d80000;
     }
 
-    a{
+    a {
       color: #333;
       float: left;
       padding-left: 14px;
 
-      em{
+      em {
         color: #c3c3c3;
 
-        span{
+        span {
           color: #c75d61;
         }
       }
     }
 
-    a:hover{
+    a:hover {
       text-decoration: underline;
     }
   }
 }
 
-.pic_list{
+.pic_list {
   overflow: hidden;
 
-  li{
+  li {
     overflow: hidden;
 
-    .img{
+    .img {
       width: 96px;
       height: 73px;
       position: relative;
 
-      a{
+      a {
         display: block;
         width: 90px;
         height: 67px;
         padding: 2px;
         border: 1px solid #dadada;
       }
-      a:hover{
+
+      a:hover {
         border: 1px solid #b80000;
       }
     }
-    .text{
+
+    .text {
       width: 108px;
 
-      h3{
+      h3 {
 
-        a{
+        a {
           color: #b80000;
           font-size: 12px;
         }
 
-        a:hover{
+        a:hover {
           text-decoration: underline;
         }
       }
-      p{
+
+      p {
         color: #999;
 
-        a{
+        a {
           color: #666;
         }
 
-        a:hover{
+        a:hover {
           color: #b80000;
           text-decoration: underline;
         }
@@ -993,40 +1012,40 @@ body {
   }
 }
 
-.wrap_section1{
+.wrap_section1 {
   padding-bottom: 5px;
 }
 
-.wrap_section2{
-  padding-bottom: 2px ;
+.wrap_section2 {
+  padding-bottom: 2px;
 
-  li{
+  li {
     border-bottom: 1px dotted #dadada;
     padding-bottom: 10px;
     margin-bottom: 10px;
   }
 }
 
-.wrap_section3{
+.wrap_section3 {
   padding-bottom: 1px;
 
-  .pic_list{
+  .pic_list {
     padding-bottom: 10px;
   }
 }
 
-.wrap_section4{
+.wrap_section4 {
   padding-bottom: 10px;
 
-  .pic_list{
+  .pic_list {
     overflow: hidden;
 
-    li{
+    li {
       float: left;
       width: 107px;
       height: 150px;
 
-      h3{
+      h3 {
         line-height: 30px;
       }
     }
@@ -1034,71 +1053,77 @@ body {
 }
 
 .new_title strong,
-.new_title span{
+.new_title span {
   position: absolute;
   left: 24px;
 }
 
-.new_title{
+.new_title {
   height: 70px;
   position: relative;
   background: url(../img/new_title_bg.gif) no-repeat right 0;
 
-  strong{
+  strong {
     font-size: 12px;
     color: #ea2b31;
     top: 19px;
   }
-  span{
+
+  span {
     font-size: 24px;
     color: #333;
     top: 31px;
   }
-  em{
+
+  em {
     font-size: 36px;
     font-weight: bold;
     color: #ec1c16;
     position: absolute;
     left: 125px;
     top: 16px;
-    }
+  }
 }
-.activity{
+
+.activity {
+  padding-bottom: 22px;
   width: 348px;
   float: left;
 }
-.recommend{
+
+.recommend {
   width: 348px;
   float: right;
 
-  .new_title{
+  .new_title {
     background-position: right -70px;
   }
 }
 
-.activity{
+.activity {
 
-  .con{
+  .con {
     background: url(../img/activity_bg.gif) no-repeat;
 
   }
 
-  .info{
+  .info {
     padding: 16px 25px 0;
     height: 104px;
 
-    .img{
+    .img {
       width: 84px;
       height: 84px;
       float: left;
       position: relative;
 
-      img{
+      img {
         width: 84px;
         height: 84px;
 
       }
-      .mask{
+
+      .mask {
         width: 84px;
         height: 84px;
         background: url(../img/activity_bg.gif) no-repeat -373px 0;
@@ -1108,21 +1133,21 @@ body {
       }
     }
 
-    .text{
+    .text {
       float: right;
       width: 204px;
 
-      h3{
+      h3 {
         height: 32px;
         font-size: 12px;
 
         em,
-        span{
+        span {
           float: left;
           margin-right: 4px;
         }
 
-        em{
+        em {
           width: 25px;
           height: 25px;
           background: url(../img/activity_bg.gif) no-repeat -348px 0;
@@ -1132,12 +1157,13 @@ body {
           line-height: 25px;
         }
 
-        span{
+        span {
           text-indent: 2px;
           padding-top: 4px;
         }
       }
-      p{
+
+      p {
         line-height: 18px;
         color: #999999;
       }
@@ -1145,12 +1171,12 @@ body {
   }
 }
 
-.calendar{
+.calendar {
   position: relative;
   width: 323px;
   padding-left: 25px;
 
-  h3{
+  h3 {
     height: 34px;
     line-height: 34px;
     text-align: center;
@@ -1158,46 +1184,54 @@ body {
     background: url(../img/adorn.gif) repeat-x;
     word-spacing: 10px;
 
-    span{
+    span {
       font-size: 14px;
     }
   }
-  li{
-    float: left;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin: 0 2px 2px 0;
-    background: #ededed;
-    text-align: center;
-    position: relative;
-    font-weight: bold;
-    color: #666;
-  }
 
-  ol{
-    .normal{
+  ol {
+    li {
+      float: left;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      margin: 0 2px 2px 0;
+      background: #ededed;
+      text-align: center;
+      position: relative;
+      font-weight: bold;
+      color: #666;
+    }
+
+    .normal {
       background: #f8f8f8;
       color: #ccc;
     }
-    .active, .img{
+
+    .active, .img {
       position: absolute;
       top: 0;
       left: 0;
     }
-    .active{
+
+    .active {
       width: 36px;
       height: 36px;
       border: 2px solid #d30408;
     }
-    .img{
+
+    .img {
       width: 40px;
       height: 40px;
     }
   }
+
+  .jc {
+    padding-bottom: 22px;
+  }
 }
 
-.today_info{
+.today_info {
   width: 294px;
   height: 84px;
   padding: 10px;
@@ -1206,35 +1240,36 @@ body {
   position: absolute;
   top: 140px;
   left: 290px;
-  box-shadow: 4px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
 
-  img{
+  img {
     width: 80px;
     height: 80px;
     border: 2px solid #dbdbdb;
     float: left;
   }
 
-  .text{
+  .text {
     width: 200px;
     float: right;
 
-    h4{
+    h4 {
       font-size: 12px;
       color: #333;
 
-      strong{
+      strong {
         font-size: 16px;
         color: #ccc;
       }
 
-      p{
+      p {
         color: #999;
         line-height: 20px;
       }
     }
   }
-  span{
+
+  span {
     width: 8px;
     height: 14px;
     overflow: hidden;
@@ -1245,9 +1280,12 @@ body {
   }
 }
 
-.recommend{
+.recommend {
 
-  .pic{
+  padding-bottom: 14px;
+  margin-bottom: 10px;
+
+  .pic {
     width: 294px;
     height: 168px;
     padding: 12px 12px 0;
@@ -1256,14 +1294,14 @@ body {
     margin: 0 auto;
     border-radius: 6px;
 
-    ul{
+    ul {
       width: 223px;
       height: 133px;
       position: absolute;
       top: 12px;
       left: 12px;
 
-      li{
+      li {
         width: 223px;
         height: 133px;
         position: absolute;
@@ -1271,7 +1309,7 @@ body {
         left: 0;
         border: 1px solid #fff;
 
-        img{
+        img {
           width: 223px;
           height: 133px;
         }
@@ -1279,27 +1317,27 @@ body {
     }
 
     ol li,
-    ol img{
+    ol img {
       width: 54px;
       height: 30px;
     }
 
-    ol{
+    ol {
       position: absolute;
       top: 12px;
       right: 12px;
 
-      li{
+      li {
         border: 3px solid #fff;
         margin-bottom: 13px;
 
-        .active{
+        .active {
           border: 3px solid #d6191d;
         }
       }
     }
 
-    p{
+    p {
       line-height: 32px;
       position: absolute;
       left: 12px;
@@ -1307,34 +1345,34 @@ body {
     }
   }
 
-  .list{
+  .list {
     padding: 18px 26px 0;
 
-    li{
+    li {
       height: 27px;
       vertical-align: middle;
 
-      em{
+      em {
         float: left;
         color: #dfdfdf;
         margin-right: 7px;
 
-        img{
+        img {
           margin-right: 3px;
         }
 
       }
 
-      a{
+      a {
         float: left;
         color: #454545;
       }
 
-      a:hover{
+      a:hover {
         text-decoration: underline;
       }
 
-      span{
+      span {
         float: right;
         font-size: 12px;
         color: #999;
@@ -1343,18 +1381,19 @@ body {
   }
 }
 
-.soso{
+.soso {
   height: 47px;
   padding: 17px 0 0 17px;
-  border-top: 1px dotted #dadada ;
+  border-top: 1px dotted #dadada;
 
 
-  strong{
+  strong {
     float: left;
     color: #595959;
     padding-top: 3px;
   }
-  .text{
+
+  .text {
     width: 172px;
     height: 20px;
     border: 1px solid #9c9c9c;
@@ -1362,7 +1401,8 @@ body {
     color: #9c9c9c;
     float: left;
   }
-  .btn{
+
+  .btn {
     width: 24px;
     height: 25px;
     background: url(../img/btn.gif);
@@ -1372,21 +1412,22 @@ body {
   }
 }
 
-.panoramic{
+.panoramic {
   height: 138px;
 
   img,
-  span{
+  span {
     display: block;
   }
 
 
-  a{
+  a {
     color: #333;
 
 
   }
-  a:hover{
+
+  a:hover {
     color: #b80000;
   }
 
