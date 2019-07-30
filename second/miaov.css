@@ -16,44 +16,43 @@ input,
 textarea,
 th,
 td,
-select{
+select {
     margin: 0;
     padding: 0;
 }
 
-em{
+em {
     font-style: normal;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     border: none;
     vertical-align: top;
 }
 
-table{
+table {
     border-collapse: collapse;
 }
 
 input,
-textarea
-{
+textarea {
     outline: none;
 }
 
-textarea{
+textarea {
     resize: none;
     overflow: hidden;
 }
 
-body{
+body {
     font-size: 12px;
     font-family: "微软雅黑";
 }
@@ -61,69 +60,165 @@ body{
 
 /* public */
 
-.clear{
+.clear {
     zoom: 1;
 }
 
-.clear::after{
+.clear::after {
     content: "";
     display: block;
     clear: both;
 }
 
-.fl{
+.fl {
     float: left;
 }
 
-.fr{
+.fr {
     float: right;
 }
 
-
-#header{
-
+.gradient {
+    background: -moz-linear-gradient( #ffffff, #f8f8f8);
+    background: -webkit-linear-gradient( #ffffff, #f8f8f8);
+    background: linear-gradient( #ffffff, #f8f8f8);
 }
 
-#nav{
 
+/* layout */
+
+#header,
+#nav,
+.content {
+    width: 960px;
+    margin: 0 auto;
 }
 
-#search{
-
+#search,
+.section,
+.side_section,
+.side_border,
+#footer {
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
 }
 
-.content{
-
+.main_ad,
+.side_section,
+.side_ad,
+.side_border {
+    margin-bottom: 10px;
 }
 
-.main{
-
+.nain_ad,
+.side_ad,
+.side_border {
+    overflow: hidden
 }
 
-.section{
-
+body {
+    margin-bottom: 30px;
 }
 
-.options{
-
+#header {
+    height: 30px;
+    border-radius: 0 0 6px 6px;
 }
 
-.main_ad{
-
+#nav {
+    height: 100px;
+    background: #f8f8f8
 }
 
-.side{
-
+#search {
+    width: 958px;
+    height: 114px;
+    margin: 0 auto 10px;
 }
 
-.side_section{
-
+.main {
+    width: 710px;
 }
 
-.side_ad{
-
+.section {
+    height: 200px;
+    /* 一会儿删 */
+    width: 318px;
+    padding: 0 15px;
 }
 
-#footer{
-    
+.options {
+    width: 350px;
+}
+
+.main_wrap {
+    padding-bottom: 10px;
+}
+
+.main_ad {
+    border-radius: 6px;
+}
+
+.side {
+    width: 240px;
+}
+
+.side_section {
+    height: 60px;
+    /* 一会儿删 */
+    padding: 0 12px;
+}
+
+.side_ad {
+    border-radius: 6px;
+}
+
+.side_border {
+    width: 238px;
+    height: 88px;
+}
+
+#footer {
+    width: 958px;
+    height: 78px;
+    margin: 0 auto;
+    background: #f9f9f9;
+}
+
+.options .nav {
+    height: 34px;
+}
+
+.options .nav li {
+    width: 172px;
+    height: 33px;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px 6px 0 0;
+    border-bottom: none;
+}
+
+.options .nav .active {
+    width: 172px;
+    height: 34px;
+    background: #ffffff;
+}
+
+.options .con {
+    width: 348px;
+    height: 80px;
+    border: 1px solid #dbdbdb;
+    border-radius: 0 0 6px 6px;
+}
+
+
+/* header */
+
+#header .city {
+    float: left;
+}
+
+#header .city a {}
+
+#header .link {
+    float: right;
 }
