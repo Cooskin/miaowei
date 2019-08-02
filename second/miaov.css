@@ -85,6 +85,29 @@ body {
     background: linear-gradient( #ffffff, #f8f8f8);
 }
 
+.triangle_up,
+.triangle_down_red,
+.triangle_down_gray {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+.triangle_up {
+    border-bottom: 4px solid #ca0309;
+}
+
+.triangle_down_red {
+    border-top: 4px solid #ca0309;
+}
+
+.triangle_down_gray {
+    border-top: 4px solid #c4bdbd;
+}
+
 
 /* layout */
 
@@ -143,8 +166,6 @@ body {
 }
 
 .section {
-    height: 200px;
-    /* 一会儿删 */
     width: 318px;
     padding: 0 15px;
 }
@@ -194,9 +215,12 @@ body {
 .options .nav li {
     width: 172px;
     height: 33px;
+    line-height: 33px;
     border: 1px solid #dbdbdb;
     border-radius: 6px 6px 0 0;
     border-bottom: none;
+    text-align: center;
+    position: relative;
 }
 
 .options .nav .active {
@@ -210,6 +234,36 @@ body {
     height: 80px;
     border: 1px solid #dbdbdb;
     border-radius: 0 0 6px 6px;
+}
+
+.nav li strong,
+.main_title strong {
+    color: #cc0d13;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.nav li span,
+.main_title span {
+    color: #000000;
+}
+
+.nav .triangle_down_red,
+.nav .triangle_down_gray {
+    top: 14px;
+    right: 12px;
+}
+
+.main_title {
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.main_title a {
+    position: absolute;
+    top: 15px;
+    right: 0;
 }
 
 
@@ -465,6 +519,7 @@ body {
     float: left;
     margin-right: 10px;
     color: #ea7a7a;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
 #search .form .btn {
@@ -473,4 +528,111 @@ body {
     border: none;
     float: left;
     background: url(../img/search_img.png) no-repeat -163px 0;
+}
+
+#search .key_text {
+    width: 206px;
+    color: #ffffff;
+    line-height: 18px;
+    position: absolute;
+    top: 30px;
+    right: 36px;
+}
+
+#search .key_text a {
+    color: #ffffff;
+    display: inline;
+}
+
+#search .key_text a:hover {
+    text-decoration: underline;
+}
+
+#search .update {
+    width: 405px;
+    height: 30px;
+    position: absolute;
+    left: 226px;
+    bottom: 0;
+    background: url(../img/search_img.png) no-repeat -226px 8px;
+}
+
+#search .wrap {
+    width: 405px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    left: 60px;
+}
+
+#search .update ul {
+    width: 336px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#search .update li {
+    height: 30px;
+    line-height: 30px;
+}
+
+#search .update a {
+    color: #000000;
+}
+
+#search .update strong {
+    color: #d30703;
+    font-weight: normal;
+}
+
+#search .update span {
+    color: #999999;
+}
+
+#search .triangle_up {
+    top: 8px;
+    right: 0;
+}
+
+#search .triangle_down_red {
+    top: 17px;
+    right: 0px;
+}
+
+
+/* content */
+
+.video_title {
+    height: 42px;
+    line-height: 42px;
+    background: url(../img/video_bg.gif) no-repeat 105px 10px;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+    color: #d90000;
+}
+
+.video {
+    margin-bottom: 13px;
+}
+
+.video_list {
+    padding-left: 75px;
+    height: 78px;
+    background: url(../img/video_bg.gif) no-repeat 3px -47px;
+}
+
+.video_list li {
+    line-height: 20px;
+    text-indent: 14px;
+    background: url(../img/dot.gif) no-repeat 5px center;
+}
+
+.video_list a {
+    color: #4d4d4d;
+}
+
+.video_list a:hover {
+    text-decoration: underline;
 }
