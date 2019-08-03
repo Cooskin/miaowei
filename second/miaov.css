@@ -230,10 +230,10 @@ body {
 }
 
 .options .con {
-    width: 348px;
-    height: 80px;
+    width: 318px;
     border: 1px solid #dbdbdb;
     border-radius: 0 0 6px 6px;
+    padding: 0 15px;
 }
 
 .nav li strong,
@@ -601,7 +601,7 @@ body {
 }
 
 
-/* content */
+/* content  video */
 
 .video_title {
     height: 42px;
@@ -635,4 +635,69 @@ body {
 
 .video_list a:hover {
     text-decoration: underline;
+}
+
+
+/* content  con */
+
+.hot_list {
+    height: 374px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.hot_list li {
+    width: 318px;
+    height: 108px;
+    margin-bottom: 6px;
+    background: url(../img/hot_list_li_bg.gif);
+}
+
+.hot_list .img {
+    float: left;
+    width: 108px;
+    height: 86px;
+}
+
+.hot_list .img a {
+    display: block;
+    width: 104px;
+    height: 84px;
+    border: 1px solid #e6e6e6;
+}
+
+.hot_list .img a:hover {
+    border: 1px solid #929292;
+}
+
+.hot_list .text {
+    float: right;
+    width: 190px;
+}
+
+.hot_list h3 {
+    line-height: 24px;
+}
+
+.hot_list h3 a {
+    font-weight: normal;
+    color: #bb0d0d;
+}
+
+.hot_list p {
+    line-height: 16px;
+    color: #6e6e6e;
+}
+
+.hot_list .more {
+    position: absolute;
+    bottom: 6px;
+    right: 0;
+}
+
+
+/* help */
+
+.help {
+    height: 208px;
 }
