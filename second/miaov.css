@@ -995,13 +995,164 @@ body {
     width: 35px;
 }
 
-.section .co2 img {
+.section .col2 img {
     position: relative;
     top: 7px;
 }
 
 .list_section .title {
     border-top: none;
+}
+
+
+/* warp_section */
+
+.wrap_section1 {
+    padding-bottom: 5px;
+}
+
+.wrap_section2 {
+    margin-bottom: 2px;
+}
+
+.wrap_section2 li {
+    border-bottom: 1px dotted #dadada;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.wrap_section3 {
+    padding-bottom: 1px;
+}
+
+.wrap_section3 .pic_list {
+    padding-bottom: 10px;
+}
+
+.wrap_section4 {
+    padding-bottom: 10px;
+}
+
+.wrap_section4 .pic_list {
+    overflow: hidden;
+}
+
+.wrap_section4 .pic_list li {
+    float: left;
+    width: 107px;
+}
+
+.wrap_section .pic_list h3 {
+    line-height: 30px;
+}
+
+
+/* soso */
+
+.soso {
+    height: 47px;
+    padding: 17px 0 0 10px;
+    border-top: 1px dotted #dadada;
+}
+
+.soso strong,
+.soso .text,
+.soso .btn {
+    float: left;
+}
+
+.soso strong {
+    color: #595959;
+    padding-top: 3px;
+}
+
+.soso .text {
+    width: 172px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 4px;
+    border: 1px solid #9c9c9c;
+    color: #9c9c9c;
+}
+
+.soso .btn {
+    width: 24px;
+    height: 25px;
+    background: url(../img/btn.gif);
+    margin-left: 10px;
+    border: none;
+}
+
+
+/* panoriamic */
+
+.panoramic {
+    height: 138px;
+}
+
+.panoramic img,
+.panoramic span {
+    display: block;
+}
+
+.panoramic a {
+    color: #333333;
+}
+
+.panoramic span {
+    line-height: 26px;
+}
+
+
+/* pic */
+
+.pic_list li {
+    overflow: hidden;
+}
+
+.pic_list .img {
+    width: 96px;
+    height: 73px;
+    position: relative;
+}
+
+.pic_list .img a {
+    display: block;
+    width: 90px;
+    height: 67px;
+    border: 1px solid #dadada;
+    padding: 2px;
+}
+
+.pic_list .img a:hover {
+    border: 1px solid #b80000;
+}
+
+.pic_list .text {
+    width: 108px;
+}
+
+.pic_list .text h3 a {
+    color: #b80000;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.pic_list .text h3 a:hover {
+    text-decoration: underline;
+}
+
+.pic_list .text p {
+    color: #999999;
+}
+
+.pic_list .text p a {
+    color: #666666;
+}
+
+.pic_list .text p a:hover {
+    color: #b80000;
+    text-decoration: underline;
 }
 
 
