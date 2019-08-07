@@ -1012,7 +1012,7 @@ body {
 }
 
 .wrap_section2 {
-    margin-bottom: 2px;
+    padding-bottom: 2px;
 }
 
 .wrap_section2 li {
@@ -1040,9 +1040,10 @@ body {
 .wrap_section4 .pic_list li {
     float: left;
     width: 107px;
+    height: 150px;
 }
 
-.wrap_section .pic_list h3 {
+.wrap_section4 .pic_list h3 {
     line-height: 30px;
 }
 
@@ -1165,4 +1166,61 @@ body {
 
 #footer span {
     margin-left: 10px;
+}
+
+
+/* new_title */
+
+.new_title {
+    height: 70px;
+    position: relative;
+    background: url(../img/new_title_bg.gif) no-repeat right 0;
+}
+
+.new_title strong,
+.new_title span {
+    position: absolute;
+    left: 24px;
+}
+
+.new_title strong {
+    font-size: 12px;
+    font-family: arial;
+    color: #ea2b31;
+    top: 19px;
+}
+
+.new_title span {
+    font-size: 24px;
+    color: #333333;
+    top: 31px;
+}
+
+.new_title em {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ec1c16;
+    position: absolute;
+    left: 125px;
+    top: 16px;
+}
+
+
+/* activity */
+
+.activity {
+    width: 348px;
+    float: left;
+}
+
+
+/* recommend */
+
+.recommend {
+    width: 348px;
+    float: right;
+}
+
+.recommend .new_title {
+    background-position: right -70px;
 }
